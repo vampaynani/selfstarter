@@ -8,9 +8,81 @@
 PaymentOption.create(
     [
         {
+            amount: 5.00,
+            amount_display: '$5',
+            description: '<strong>1</strong> Raffle ticket',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
             amount: 10.00,
             amount_display: '$10',
-            description: '<strong>Basic level: </strong>You receive a great big thankyou from us!  You Rock',
+            description: '<strong>2</strong> Raffle tickets',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 20.00,
+            amount_display: '$20',
+            description: '<strong>4</strong> Raffle tickets<br /><strong>1</strong> Teddy bear',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 30.00,
+            amount_display: '$30',
+            description: '<strong>6</strong> Raffle tickets<br /><strong>1</strong> Teddy bear',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 40.00,
+            amount_display: '$40',
+            description: '<strong>8</strong> Raffle tickets<br /><strong>1</strong> Teddy bear',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 50.00,
+            amount_display: '$50',
+            description: '<strong>10</strong> Raffle tickets<br /><strong>1</strong> Teddy bear',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 60.00,
+            amount_display: '$60',
+            description: '<strong>12</strong> Raffle tickets<br /><strong>1</strong> Teddy bear',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 70.00,
+            amount_display: '$70',
+            description: '<strong>14</strong> Raffle tickets<br /><strong>1</strong> Teddy bear',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 80.00,
+            amount_display: '$80',
+            description: '<strong>16</strong> Raffle tickets<br /><strong>1</strong> Teddy bear',
+            shipping_desc: '',
+            delivery_desc: '',
+            limit: -1
+        },
+        {
+            amount: 90.00,
+            amount_display: '$90',
+            description: '<strong>18</strong> Raffle tickets<br /><strong>1</strong> Teddy bear',
             shipping_desc: '',
             delivery_desc: '',
             limit: -1
@@ -18,57 +90,9 @@ PaymentOption.create(
         {
             amount: 100.00,
             amount_display: '$100',
-            description: '<strong>Package 1: </strong>You receive our print edition',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
-            limit: 250
-        },
-        {
-            amount: 125.00,
-            amount_display: '$125',
-            description: '<strong>Package 2: </strong>You will receive both our print and digital edition',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
+            description: '<strong>20</strong> Raffle tickets<br /><strong>1</strong> Teddy bear',
+            shipping_desc: '',
+            delivery_desc: '',
             limit: -1
         },
-        {
-            amount: 200.00,
-            amount_display: '$200',
-            description: '<strong>Package 3: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
-            limit: -1
-        },
-        {
-            amount: 250.00,
-            amount_display: '$250',
-            description: '<strong>Package 4: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
-            limit: -1
-        },
-        {
-            amount: 300.00,
-            amount_display: '$300',
-            description: '<strong>Package 5: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
-            limit: -1
-        },
-        {
-            amount: 500.00,
-            amount_display: '$500',
-            description: '<strong>Package 6: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
-            limit: -1
-        },
-        {
-            amount: 1000.00,
-            amount_display: '$1000',
-            description: '<strong>Package 7: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            shipping_desc: 'add $3 to ship outside the US',
-            delivery_desc: 'Estimated delivery: Oct 2013',
-            limit: -1
-        }
     ])

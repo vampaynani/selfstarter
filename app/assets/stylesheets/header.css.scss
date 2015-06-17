@@ -1,14 +1,12 @@
-#lockitron_header
-{
+#lockitron_header {
   border: none;
-  a
-  {
-    border: none !important;
-    font-size: inherit !important;
-  }
+  margin: 0 auto;
+  width: auto;
+  float: none;
+  text-align: center;
 }
-#header 
-{
+
+#header {
   width: 100%;
   padding: 26px 0;
   -moz-box-shadow:    0px 1px 3px 0px #acacac;

@@ -25,24 +25,27 @@ h3 {
 }
 
 #one {
-  background: url(image_path("1-background.png")) no-repeat bottom left;
+  background: url(image_path("1-background.jpg")) no-repeat center right;
   height: 320px;
   width: 936px;
 }
 
 #two {
-  background: url(image_path("2-background.png")) no-repeat bottom left;
+  background: url(image_path("2-background.jpg")) no-repeat center left;
   height: 320px;
+  background-size: 300px;
 }
 
 #three {
-  background: url(image_path("3-background.png")) no-repeat bottom left;
+  background: url(image_path("3-background.jpeg")) no-repeat center right;
   height: 320px;
+  background-size: 300px;
 }
 
 #four {
-  background: url(image_path("4-background.png")) no-repeat bottom left;
+  background: url(image_path("4-background.jpg")) no-repeat center left;
   height: 320px;
+  background-size: 300px;
 }
 
 .right {
