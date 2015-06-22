@@ -67,4 +67,9 @@ class PreorderController < ApplicationController
 
   def ipn
   end
+
+  def set_locale()
+    I18n.locale = params[:locale]
+    redirect_to root_url
+  end
 end

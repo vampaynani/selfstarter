@@ -17,7 +17,7 @@
       <% if Settings.expiration_date.present? %>
         <li class="stats" id="days">
           <%= distance_of_time_in_words_to_now(Settings.expiration_date).gsub(/\D/, "") %>
-          <span><%= distance_of_time_in_words_to_now(Settings.expiration_date).gsub(/\d/, "").gsub("about", "") %> left</span>
+          <span><%= distance_of_time_in_words_to_now(Settings.expiration_date).gsub(/\d/, "").gsub("about", "") %> <%= t :left %></span>
         </li>
       <% else %>
         <li class="stats" id="days">
