@@ -18,20 +18,20 @@ class Order < ActiveRecord::Base
     @order
   end
 
-  # After authenticating with Amazon, we get the rest of the details
+  # After authenticating with Amazon/Paypal, we get the rest of the details
   def self.postfill!(options = {})
-    @order = Order.find_by!(:uuid => options[:callerReference])
-    @order.token             = options[:tokenID]
+    @order = Order.find_by!(:uuid => options[:invoice])
+    @order.token             = options[:txn_id]
     if @order.token.present?
-      @order.address_one     = options[:addressLine1]
-      @order.address_two     = options[:addressLine2]
-      @order.city            = options[:city]
-      @order.state           = options[:state]
-      @order.status          = options[:status]
-      @order.zip             = options[:zip]
-      @order.phone           = options[:phoneNumber]
-      @order.country         = options[:country]
-      @order.expiration      = Date.parse(options[:expiry])
+      @order.address_one     = options[:address_street]
+      #@order.address_two     = options[:address_street]
+      @order.city            = options[:address_city]
+      @order.state           = options[:address_state]
+      @order.status          = options[:payment_status]
+      @order.zip             = options[:address_zip]
+      #@order.phone           = options[:phoneNumber]
+      @order.country         = options[:address_country]
+      #@order.expiration      = Date.parse(options[:payment_date])
       @order.save!
 
       @order

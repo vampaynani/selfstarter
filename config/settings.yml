@@ -33,6 +33,11 @@ video_embed_url: "https://www.youtube.com/v/tBqnNiK8-iY"
 # To find your access key and secret key, head over to here --> http://bit.ly/R4I4ky (Follow that guide in the Seller Central page)
 amazon_access_key: "YOUR_AMAZON_ACCESS_KEY"
 amazon_secret_key: "YOUR_AMAZON_SECRET_KEY"
+
+# Paypal
+paypal_bussiness_account: "dragonrojo_2002-facilitator@hotmail.com"
+paypal_host: "https://www.sandbox.paypal.com"
+
 price: 	19.95
 
 # if use_payment_options is set to true, then a set of radio buttons will be displayed with various payment options.
