@@ -17,7 +17,7 @@
       <% if Settings.expiration_date.present? %>
         <li class="stats" id="days">
           <%= distance_of_time_in_words_to_now(Settings.expiration_date).gsub(/\D/, "") %>
-          <span><%= distance_of_time_in_words_to_now(Settings.expiration_date).gsub(/\d/, "").gsub("about", "") %> <%= t :left %></span>
+          <span><%= distance_of_time_in_words_to_now(Settings.expiration_date).gsub(/\d/, "").gsub("about", "") %> <%= t :month_left %></span>
         </li>
       <% else %>
         <li class="stats" id="days">
@@ -41,10 +41,10 @@
     <% end %>
 
     <div id="reserve_container">
-      <p id="ship_date"><%= Settings.ships %></p>
+      <p id="ship_date"><%= t Settings.ships %></p>
       <a href="/preorder/checkout" class="blue_button reserve"><%= Settings.call_to_action %></a>
-      <p id="price"><%= Settings.price_human %></p>
-      <p><%= Settings.dont_give_them_a_reason_to_say_no %></p>
+      <p id="price"><%= t Settings.price_human %></p>
+      <p><%= t Settings.dont_give_them_a_reason_to_say_no %></p>
       <%= like_button %>
     </div>
 

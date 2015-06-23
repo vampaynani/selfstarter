@@ -1,7 +1,28 @@
 ---
 es:
   who_is: "¿Quién es Angélica?"
-  left: "más"
+  month_left: "más"
+  description: "Graduada de Sequoia High School en Redwood City; quiere atender Cal State East Bay en Otoño de 2015. Estará estudiando Enfermería, su gran sueño."
+  Why_nurse: "¿Por qué quiere ser enfermera?"
+  descriptionOne: "Angelica habla con fluidez el Español e Inglés. Al ser enfermera, ella será capaz de ayudar a más de nuestra comunidad. No sólo ayudar a esos, también a la gente que tiene la necesidad y que no hablan Inglés, y cuidar de toda la comunidad."
+  Which_programs: "¿En que programas a estado Angélica?"
+  descriptionTwo: "Angélica siempre ha estado involucrada con la comunidad. Ha estado envuelta en diversos programas en donde el propósito principal es apoyar y mejorar la comunidad, así como lo es el programa de  The North Fair Oaks Youth Initiative. Ella disfruta ayudar y dar a la gente que lo necesita."
+  help: "¿Cómo voy a ayudarla?"
+  descriptionThree: "Usted puede ayudar con esta donación que es deducible de impuestos y le da acceso a una rifa"
+  prize: "Gran Premio"
+  descriptionFour: "Un par de boletos redondos Aeromexico incluyendo  4-días/3 noches paquete luxury suite hotel en Ixtapa Zihuatanejo"
+  prize2: "2do Premio"
+  descriptionFive: "$1,000 en gift cards de Chavez Supermarkets"
+  prize3: "3er premio"
+  descriptionSix: "$1,000 en gift cards de Deseo Tequila Lounge"
+  Otherprize: "Otros Premios"
+  descriptionSeven: "2 Chrome Tabletas, 2 Flat Screen TVs, 2 iPads, $300 en gift cards para el cine"
+  made: "Hecho por los chicos de"
+  link: "Lockitron"
+  text: "MIT Licencia."
+  "Help Angelica live her dream": "Ayuda a Angélica a vivir su sueño"
+  "Donation is tax deductible": "La donación es deducible de impuestos"
+  "You can ask for your receipt \ . Just send an email to angelica_slt@yahoo.com with your information": "Tu puedes preguntar por tu recibo. Sólo tienes que enviar un correo electrónico a angelica_slt@yahoo.com con su información"
   date:
     abbr_day_names:
     - dom
