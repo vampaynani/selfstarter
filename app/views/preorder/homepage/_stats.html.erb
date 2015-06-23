@@ -7,11 +7,11 @@
     <ul>
       <li class="stats" id="backers">
         <%= number_with_delimiter Order.backers, :delimiter => "," %>
-        <span><%= Settings.primary_stat %></span>
+        <span><%= t Settings.primary_stat %></span>
       </li>
       <li class="stats">
         <%= number_to_currency Order.revenue, :precision => 0 %>
-        <span>of <%= number_to_currency Settings.project_goal.to_f, :precision => 0 %></span>
+        <span><%= t :of %> <%= number_to_currency Settings.project_goal.to_f, :precision => 0 %></span>
       </li>
 
       <% if Settings.expiration_date.present? %>
@@ -42,7 +42,7 @@
 
     <div id="reserve_container">
       <p id="ship_date"><%= t Settings.ships %></p>
-      <a href="/preorder/checkout" class="blue_button reserve"><%= Settings.call_to_action %></a>
+      <a href="/preorder/checkout" class="blue_button reserve"><%= t Settings.call_to_action %></a>
       <p id="price"><%= t Settings.price_human %></p>
       <p><%= t Settings.dont_give_them_a_reason_to_say_no %></p>
       <%= like_button %>

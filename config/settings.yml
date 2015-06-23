@@ -22,7 +22,7 @@ product_description: ""
 product_image_path: "angelica.jpg"
 
 # The message on the preorder page, Lockitron's is ""
-value_proposition: "The donations here will help Angelica win a $10,000.00 scholarship to become a nurse."
+value_proposition: "The_donations"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
 # Replace /embed/ in your video url path with /v/ for video playback to work.
@@ -60,7 +60,7 @@ primary_stat: "donators"
 primary_stat_verb: 'donator'
 
 # The 2nd call to action button, towards the middle-ish of the page
-middle_reserve_text: "Donate Now"
+middle_reserve_text: "Donate_Now"
 
 # When the project should end
 expiration_date: <%= DateTime.new(2015, 8, 3) %>
@@ -74,12 +74,12 @@ progress_text: "Fully donated"
 ships: "Help Angelica live her dream"
 
 # On Lockitron, it's "Reserve Now"
-call_to_action: "Donate Now"
+call_to_action: "DonateNow"
 # On Lockitron, this is "Only $149 for a limited time"
 price_human: "Donation is tax deductible"
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
-dont_give_them_a_reason_to_say_no: "You can ask for your receipt. Just send an email to angelica_slt@yahoo.com with your information."
+dont_give_them_a_reason_to_say_no: "donate_description"
 
 # Social Stuff
 facebook_app_id: "1234567890"
