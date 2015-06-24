@@ -85,7 +85,7 @@ dont_give_them_a_reason_to_say_no: "donate_description"
 facebook_app_id: "1234567890"
 # Tweets are prefixed with "I'm #{Settings.primary_stat} number X for #{Settings.product_name}"
 # Maybe mention something about your product vision -- e.g. "to replace keys with my phone"
-twitter_username: "vampaynani"
+twitter_username: ""
 tweet_text: "to donate"
 
 # If you want to change the images for the key points (e.g. "Kickstarter is not a store")
