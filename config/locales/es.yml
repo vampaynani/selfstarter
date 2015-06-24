@@ -29,7 +29,8 @@ es:
   "The_donations": "Las donaciones aquí ayudarán Angélica ganar una beca de $ 10,000.00 para ser enfermera."
   of: "de"
   check: "Verificar"
-  subparagraph: "Toda su información de pago serán asegurados y almacenados con Paypal Payments. Si usted no tiene una cuenta de Amazon, sólo tiene que seleccionar soy un nuevo cliente en la página siguiente. Seleccione una opción de pago e introduzca su dirección de correo electrónico a continuación."
+  subparagraph: "Toda su información de pago serán asegurados y almacenados con Paypal Payments. Si usted no tiene una cuenta de Amazon, sólo tiene que seleccionar soy un nuevo cliente en la página siguiente."
+  subparagraph_two: "Seleccione una opción de pago e introduzca su dirección de correo electrónico a continuación."
   date:
     abbr_day_names:
     - dom
